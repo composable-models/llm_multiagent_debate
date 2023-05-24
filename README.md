@@ -21,8 +21,10 @@ The code for running arithmetic, GSM, biographies, and MMLU tasks may be found i
 * ./mmlu/ contains code for estimate the pose between two images using superpoint
 
 
+
+* Grade School Math:
 To generate answers for Grade School Math problems through multiagent debate:
 	`python gsm/gen_gsm.py`
 
 To evaluate the generated results of Grade School Math problems:
-	`python gsm/gen_gsm.py`
+	`python gsm/eval_gsm.py`
