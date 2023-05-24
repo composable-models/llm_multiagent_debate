@@ -19,3 +19,10 @@ The code for running arithmetic, GSM, biographies, and MMLU tasks may be found i
 * ./gsm/ contains code to download Realestate10k and ACID datasets
 * ./biography/ contains code for different utility functions on the dataset
 * ./mmlu/ contains code for estimate the pose between two images using superpoint
+
+
+To generate answers for Grade School Math problems through multiagent debate:
+	`python gsm/gen_gsm.py`
+
+To evaluate the generated results of Grade School Math problems:
+	`python gsm/gen_gsm.py`
