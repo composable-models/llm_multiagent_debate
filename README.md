@@ -22,7 +22,8 @@ The code for running arithmetic, GSM, biographies, and MMLU tasks may be found i
 
 
 
-* Grade School Math:
+**Grade School Math:**
+
 To generate answers for Grade School Math problems through multiagent debate:
 	`python gsm/gen_gsm.py`
 
