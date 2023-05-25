@@ -15,10 +15,10 @@ This is a preliminary implementation of the paper "Improving Factuality and Reas
 
 The code for running arithmetic, GSM, biographies, and MMLU tasks may be found in the following subfolders
 
-* ./math/ contains code loading data
-* ./gsm/ contains code to download Realestate10k and ACID datasets
-* ./biography/ contains code for different utility functions on the dataset
-* ./mmlu/ contains code for estimate the pose between two images using superpoint
+* ./math/ contains code for running math
+* ./gsm/ contains code for running gsm
+* ./biography/ contains code for running biographies biographies
+* ./mmlu/ contains code for running mmlu results.
 
 
 
