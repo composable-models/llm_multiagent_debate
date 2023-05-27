@@ -1,4 +1,3 @@
-import openai
 import json
 import openai
 import random
