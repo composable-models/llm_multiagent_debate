@@ -20,12 +20,32 @@ The code for running arithmetic, GSM, biographies, and MMLU tasks may be found i
 * ./biography/ contains code for running biographies
 * ./mmlu/ contains code for running mmlu results.
 
+**Math:**
 
-
+To generate and evaluated answer for Math problems through multiagent debate, cd into the math directory and run:
+	`python gen_math.py`
+	
 **Grade School Math:**
 
-To generate answers for Grade School Math problems through multiagent debate:
-	`python gsm/gen_gsm.py`
+To generate answers for Grade School Math problems through multiagent debate, cd into the gsm directory and run:
+	`python gen_gsm.py`
 
 To evaluate the generated results of Grade School Math problems:
-	`python gsm/eval_gsm.py`
+	`python eval_gsm.py`
+
+
+**Biography:**
+
+To generate answers for Biography problems through multiagent debate, cd into the biography directory and run:
+	`python gen_conversation.py`
+
+To evaluate the generated results for Biography problems:
+	`python /eval_conversation.py`
+	
+**MMLU:**
+
+To generate answers for MMLU through multiagent debate, cd into the MMLU directory and run:
+	`python gen_mmlu.py`
+
+To evaluate the generated results of MMLU:
+	`python eval_mmlu.py`
