@@ -17,7 +17,7 @@ The code for running arithmetic, GSM, biographies, and MMLU tasks may be found i
 
 * ./math/ contains code for running math
 * ./gsm/ contains code for running gsm
-* ./biography/ contains code for running biographies biographies
+* ./biography/ contains code for running biographies
 * ./mmlu/ contains code for running mmlu results.
 
 
