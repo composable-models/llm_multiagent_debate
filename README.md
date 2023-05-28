@@ -32,6 +32,8 @@ To generate answers for Grade School Math problems through multiagent debate, cd
 
 To evaluate the generated results of Grade School Math problems:
 	`python eval_gsm.py`
+	
+You can download the GSM dataset [here](https://github.com/openai/grade-school-math)
 
 
 **Biography:**
@@ -49,3 +51,5 @@ To generate answers for MMLU through multiagent debate, cd into the MMLU directo
 
 To evaluate the generated results of MMLU:
 	`python eval_mmlu.py`
+	
+You can download the MMLU dataset [here](https://github.com/hendrycks/test)
