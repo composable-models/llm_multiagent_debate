@@ -1,6 +1,6 @@
 # Improving Factuality and Reasoning in Language Models through Multiagent Debate
 
-### [Project Page](https://composable-models.github.io/llm_debate/) | [Paper](https://composable-models.github.io/llm_debate/llm_debate.pdf) 
+### [Project Page](https://composable-models.github.io/llm_debate/) | [Paper](https://arxiv.org/abs/2305.14325) 
 
 [Yilun Du](https://yilundu.github.io/),
 [Shuang Li](https://people.csail.mit.edu/lishuang/),
