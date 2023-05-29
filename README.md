@@ -53,3 +53,13 @@ To evaluate the generated results of MMLU:
 	`python eval_mmlu.py`
 	
 You can download the MMLU dataset [here](https://github.com/hendrycks/test)
+
+If you would like to cite the paper, here is a bibtex file:
+```
+@article{du2023improving,
+  title={Improving Factuality and Reasoning in Language Models through Multiagent Debate},
+  author={Du, Yilun and Li, Shuang and Torralba, Antonio and Tenenbaum, Joshua B and Mordatch, Igor},
+  journal={arXiv preprint arXiv:2305.14325},
+  year={2023}
+}
+```
