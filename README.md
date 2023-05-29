@@ -8,7 +8,8 @@
 [Joshua B. Tenenbaum](https://scholar.google.com/citations?user=rRJ9wTJMUB8C&hl=en),
 [Igor Mordatch](https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en)
 
-This is a preliminary implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate". More tasks and settings will be released soon
+This is a preliminary implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate". More tasks and settings will be released soon. 
+You may see some additional debate logs [here](https://www.dropbox.com/sh/6kq5ixfnf4zqk09/AABezsYsBhgg1IQAZ12yQ43_a?dl=0).
 
 
 ## Running experiments
