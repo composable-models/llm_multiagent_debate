@@ -43,7 +43,7 @@ To generate answers for Biography problems through multiagent debate, cd into th
 	`python gen_conversation.py`
 
 To evaluate the generated results for Biography problems:
-	`python /eval_conversation.py`
+	`python eval_conversation.py`
 	
 **MMLU:**
 
