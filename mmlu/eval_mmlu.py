@@ -70,8 +70,8 @@ def parse_answer(input_str):
     return solution
 
 
-def compute_accuracy(gt, pred_solution):
-    if type(pred_solution) == list:
+def compute_accuracy(gt, pred_solutions):
+    if type(pred_solutions) == list:
         pred_answers = []
 
         for pred_solution in pred_solutions:
@@ -88,9 +88,9 @@ def compute_accuracy(gt, pred_solution):
         pred_answer = most_frequent(pred_answers)
         # pred_answer = pred_answers[0]
     else:
-        pred_answer = parse_answer(pred_solution)
+        pred_answer = parse_answer(pred_solutions)
         if pred_answer is None:
-            pred_answer = solve_math_problems(pred_solution)
+            pred_answer = solve_math_problems(pred_solutions)
 
     if gt == pred_answer:
         return 1
