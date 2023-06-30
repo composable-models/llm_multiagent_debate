@@ -37,7 +37,7 @@ def generate_answer(answer_context):
     return completion
 
 
-def construct_message(agents, question):
+def construct_message(agents, question, idx):
 
     # Use introspection in the case in which there are no other agents.
     if len(agents) == 0:
@@ -46,7 +46,7 @@ def construct_message(agents, question):
     prefix_string = "These are the recent/updated opinions from other agents: "
 
     for agent in agents:
-        agent_response = agent[-1]["content"]
+        agent_response = agent[idx]["content"]
         response = "\n\n One agent response: ```{}```".format(agent_response)
 
         prefix_string = prefix_string + response
@@ -109,7 +109,7 @@ if __name__ == "__main__":
 
                 if round != 0:
                     agent_contexts_other = agent_contexts[:i] + agent_contexts[i+1:]
-                    message = construct_message(agent_contexts_other, question_prompt)
+                    message = construct_message(agent_contexts_other, question_prompt, 2*round - 1)
                     agent_context.append(message)
 
                     print("message: ", message)

@@ -5,14 +5,14 @@ import time
 import random
 import openai
 
-def construct_message(agents, question):
+def construct_message(agents, question, idx):
     if len(agents) == 0:
         return {"role": "user", "content": "Can you double check that your answer is correct. Put your final answer in the form (X) at the end of your response."}
 
     prefix_string = "These are the solutions to the problem from other agents: "
 
     for agent in agents:
-        agent_response = agent[-1]["content"]
+        agent_response = agent[idx]["content"]
         response = "\n\n One agent solution: ```{}```".format(agent_response)
 
         prefix_string = prefix_string + response
@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
                 if round != 0:
                     agent_contexts_other = agent_contexts[:i] + agent_contexts[i+1:]
-                    message = construct_message(agent_contexts_other, question)
+                    message = construct_message(agent_contexts_other, question, 2 * round - 1)
                     agent_context.append(message)
 
                 completion = generate_answer(agent_context)

@@ -121,9 +121,6 @@ def most_frequent(List):
 if __name__ == "__main__":
     response_dict = json.load(open("gsm_debate_3_3.json", "r"))
 
-    with open("article.json", "r") as f:
-        gt_data = json.load(f)
-
     questions = list(response_dict.keys())
 
     accuracies = []

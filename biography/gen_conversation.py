@@ -26,7 +26,7 @@ def filter_people(person):
     return people
 
 
-def construct_message(agents, person, final=False):
+def construct_message(agents, idx, person, final=False):
     prefix_string = "Here are some bullet point biographies of {} given by other agents: ".format(person)
 
     if len(agents) == 0:
@@ -34,7 +34,7 @@ def construct_message(agents, person, final=False):
 
 
     for i, agent in enumerate(agents):
-        agent_response = agent[-1]["content"]
+        agent_response = agent[idx]["content"]
         response = "\n\n Agent response: ```{}```".format(agent_response)
 
         prefix_string = prefix_string + response
@@ -77,9 +77,9 @@ if __name__ == "__main__":
                     agent_contexts_other = agent_contexts[:i] + agent_contexts[i+1:]
 
                     if round == (rounds - 1):
-                        message = construct_message(agent_contexts_other, person=person, final=True)
+                        message = construct_message(agent_contexts_other, 2*round - 1, person=person, final=True)
                     else:
-                        message = construct_message(agent_contexts_other, person=person, final=False)
+                        message = construct_message(agent_contexts_other, 2*round - 1, person=person, final=False)
                     agent_context.append(message)
 
                 try:
