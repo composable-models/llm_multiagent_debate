@@ -84,7 +84,7 @@ def compute_accuracy(gt, pred_solutions):
                 pred_answers.append(pred_answer)
 
         if pred_answer is None:
-            return 1
+            return 0
         pred_answer = most_frequent(pred_answers)
         # pred_answer = pred_answers[0]
     else:
