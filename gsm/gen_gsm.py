@@ -31,7 +31,7 @@ def read_jsonl(path: str):
 if __name__ == "__main__":
     agents = 3
     rounds = 2
-    np.random.seed(0)
+    random.seed(0)
 
     generated_description = {}
 
