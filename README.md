@@ -11,6 +11,7 @@
 This is a preliminary implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate". More tasks and settings will be released soon. 
 You may see some additional debate logs [here](https://www.dropbox.com/sh/6kq5ixfnf4zqk09/AABezsYsBhgg1IQAZ12yQ43_a?dl=0).
 
+Also, check out gauss5930's awesome implement of multiagent debate on opensource LLMs [here](https://github.com/gauss5930/LLM-Agora)!
 
 ## Running experiments
 
