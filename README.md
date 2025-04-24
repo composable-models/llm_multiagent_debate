@@ -3,7 +3,7 @@
 ### [Project Page](https://composable-models.github.io/llm_debate/) | [Paper](https://arxiv.org/abs/2305.14325) 
 
 [Yilun Du](https://yilundu.github.io/),
-[Shuang Li](https://people.csail.mit.edu/lishuang/),
+[Shuang Li](https://shuangli59.github.io/),
 [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab),
 [Joshua B. Tenenbaum](https://scholar.google.com/citations?user=rRJ9wTJMUB8C&hl=en),
 [Igor Mordatch](https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en)
